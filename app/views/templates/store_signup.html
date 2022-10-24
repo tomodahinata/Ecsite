@@ -1,0 +1,17 @@
+{{define "content" }}
+<h1 class="text-center">アカウント作成</h1>
+ 
+<form class="form-signin" role="form" action="/store_signup" method="post">
+    <h2 class="form-signin-heading">
+      <i class="fa fa-comments-o">
+        Selling
+      </i>
+    </h2>
+    <div class="lead">Shop 登録</div>
+    <input id="name" type="text" name="store_name" class="form-control" placeholder="お名前" required autofocus>
+    <input type="email" name="email" class="form-control" placeholder="Email" required>
+    <input class="form-control" name="address" id="address" placeholder="住所" required>
+    <input type="password" name="password" class="form-control" placeholder="パスワード" required>
+    <button class="btn btn-lg btn-primary btn-block" type="submit">登録</button>
+</form>
+{{end}}

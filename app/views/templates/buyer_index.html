@@ -1,0 +1,15 @@
+{{ define "content" }}
+
+<h2>商品</h2>
+<hr>
+{{ range .Goods }}
+<div>{{  .Name  }}</div>
+<div>{{ .Category }}</div>  
+<div>{{ .Price }}</div>  
+
+
+
+<hr>
+{{end}}
+
+{{end}}

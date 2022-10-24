@@ -1,0 +1,1559 @@
+2022/10/24 14:15:36 server.go:3197: http: panic serving [::1]:51213: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 7 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff660927460, 0xc00008c210})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff660a04c10?, 0xc0000b6000}, {0x7ff660906d00, 0x7ff660a01220}, {0xc0000519e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff660a04c10, 0xc0000b6000}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x20b46f48028?, {0x7ff660a04c10?, 0xc0000b6000?}, 0x7ff6604ae7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff660a04c10, 0xc0000b6000}, 0xc0000a2000)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc00008c030?}, {0x7ff660a04c10, 0xc0000b6000}, 0xc0000a2000)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000610e0, {0x7ff660a04e78, 0xc000075530})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:15:38 server.go:3197: http: panic serving [::1]:51214: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 19 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff660927460, 0xc00008c450})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff660a04c10?, 0xc0000b60e0}, {0x7ff660906d00, 0x7ff660a01220}, {0xc0000519e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff660a04c10, 0xc0000b60e0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x20b46f48028?, {0x7ff660a04c10?, 0xc0000b60e0?}, 0x7ff6604ae7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff660a04c10, 0xc0000b60e0}, 0xc0000a2200)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc00008c2d0?}, {0x7ff660a04c10, 0xc0000b60e0}, 0xc0000a2200)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc00018c000, {0x7ff660a04e78, 0xc000075530})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:15:43 server.go:3197: http: panic serving [::1]:51216: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 21 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff660927460, 0xc00008c690})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff660a04c10?, 0xc0000b61c0}, {0x7ff660906d00, 0x7ff660a01220}, {0xc0001b59e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff660a04c10, 0xc0000b61c0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x20b46f48028?, {0x7ff660a04c10?, 0xc0000b61c0?}, 0x7ff6604ae7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff660a04c10, 0xc0000b61c0}, 0xc0000a2300)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc00008c510?}, {0x7ff660a04c10, 0xc0000b61c0}, 0xc0000a2300)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc00018c0a0, {0x7ff660a04e78, 0xc000075530})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:16:13 server.go:3197: http: panic serving [::1]:51222: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 23 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff660927460, 0xc00008c8d0})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff660a04c10?, 0xc0000b62a0}, {0x7ff660906d00, 0x7ff660a01220}, {0xc0001b19e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff660a04c10, 0xc0000b62a0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x20b46f48028?, {0x7ff660a04c10?, 0xc0000b62a0?}, 0x7ff6604ae7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff660a04c10, 0xc0000b62a0}, 0xc0000a2400)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc00008c750?}, {0x7ff660a04c10, 0xc0000b62a0}, 0xc0000a2400)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc00018c140, {0x7ff660a04e78, 0xc000075530})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:17:25 server.go:3197: http: panic serving [::1]:51239: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 7 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff6f6557460, 0xc000075800})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff6f6634c10?, 0xc0001420e0}, {0x7ff6f6536d00, 0x7ff6f6631220}, {0xc0000559e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff6f6634c10, 0xc0001420e0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x1c0d47d8028?, {0x7ff6f6634c10?, 0xc0001420e0?}, 0x7ff6f60de7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff6f6634c10, 0xc0001420e0}, 0xc00010a100)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc000075620?}, {0x7ff6f6634c10, 0xc0001420e0}, 0xc00010a100)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000061040, {0x7ff6f6634e78, 0xc000075530})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:18:25 server.go:3197: http: panic serving [::1]:51255: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 9 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff6f6557460, 0xc000075a40})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff6f6634c10?, 0xc0001421c0}, {0x7ff6f6536d00, 0x7ff6f6631220}, {0xc0000559e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff6f6634c10, 0xc0001421c0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x1c0d47d8028?, {0x7ff6f6634c10?, 0xc0001421c0?}, 0x7ff6f60de7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff6f6634c10, 0xc0001421c0}, 0xc00010a300)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc0000758c0?}, {0x7ff6f6634c10, 0xc0001421c0}, 0xc00010a300)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000610e0, {0x7ff6f6634e78, 0xc000075530})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:18:42 server.go:3197: http: panic serving [::1]:51256: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 11 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff6f6557460, 0xc000075c80})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff6f6634c10?, 0xc0001422a0}, {0x7ff6f6536d00, 0x7ff6f6631220}, {0xc0000519e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerTop({0x7ff6f6634c10, 0xc0001422a0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:23 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x1c0d47d8028?, {0x7ff6f6634c10?, 0xc0001422a0?}, 0x7ff6f60de7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff6f6634c10, 0xc0001422a0}, 0xc00010a400)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc000075b00?}, {0x7ff6f6634c10, 0xc0001422a0}, 0xc00010a400)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000061180, {0x7ff6f6634e78, 0xc000075530})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:18:43 server.go:3197: http: panic serving [::1]:51257: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 13 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff6f6557460, 0xc000075ec0})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff6f6634c10?, 0xc000142380}, {0x7ff6f6536d00, 0x7ff6f6631220}, {0xc0001cb9e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerTop({0x7ff6f6634c10, 0xc000142380}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:23 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x1c0d47d8028?, {0x7ff6f6634c10?, 0xc000142380?}, 0x7ff6f60de7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff6f6634c10, 0xc000142380}, 0xc00010a600)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc000075d40?}, {0x7ff6f6634c10, 0xc000142380}, 0xc00010a600)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000061220, {0x7ff6f6634e78, 0xc000075530})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:18:48 server.go:3197: http: panic serving [::1]:51258: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 15 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff6f6557460, 0xc0001de120})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff6f6634c10?, 0xc000142460}, {0x7ff6f6536d00, 0x7ff6f6631220}, {0xc0001c79e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerTop({0x7ff6f6634c10, 0xc000142460}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:23 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x1c0d47d8028?, {0x7ff6f6634c10?, 0xc000142460?}, 0x7ff6f60de7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff6f6634c10, 0xc000142460}, 0xc00010a700)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc000075f80?}, {0x7ff6f6634c10, 0xc000142460}, 0xc00010a700)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000612c0, {0x7ff6f6634e78, 0xc000075530})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:19:18 server.go:3197: http: panic serving [::1]:51260: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 18 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff6f6557460, 0xc0001de360})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff6f6634c10?, 0xc000142540}, {0x7ff6f6536d00, 0x7ff6f6631220}, {0xc0001fb9e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerTop({0x7ff6f6634c10, 0xc000142540}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:23 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x1c0d47d8028?, {0x7ff6f6634c10?, 0xc000142540?}, 0x7ff6f60de7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff6f6634c10, 0xc000142540}, 0xc00010a800)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc0001de1e0?}, {0x7ff6f6634c10, 0xc000142540}, 0xc00010a800)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000061360, {0x7ff6f6634e78, 0xc000075530})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:19:47 server.go:3197: http: panic serving [::1]:51266: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 20 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff6f6557460, 0xc0001de5a0})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff6f6634c10?, 0xc000142620}, {0x7ff6f6536d00, 0x7ff6f6631220}, {0xc0001cb9e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerTop({0x7ff6f6634c10, 0xc000142620}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:23 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x1c0d47d8028?, {0x7ff6f6634c10?, 0xc000142620?}, 0x7ff6f60de7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff6f6634c10, 0xc000142620}, 0xc00010aa00)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc0001de420?}, {0x7ff6f6634c10, 0xc000142620}, 0xc00010aa00)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000061400, {0x7ff6f6634e78, 0xc000075530})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:19:49 server.go:3197: http: panic serving [::1]:51267: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 22 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff6f6557460, 0xc0001de7e0})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff6f6634c10?, 0xc000142700}, {0x7ff6f6536d00, 0x7ff6f6631220}, {0xc0001c79e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff6f6634c10, 0xc000142700}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x1c0d47d8028?, {0x7ff6f6634c10?, 0xc000142700?}, 0x7ff6f60de7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff6f6634c10, 0xc000142700}, 0xc00010ab00)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc0001de660?}, {0x7ff6f6634c10, 0xc000142700}, 0xc00010ab00)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000614a0, {0x7ff6f6634e78, 0xc000075530})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:19:55 server.go:3197: http: panic serving [::1]:51268: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 24 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff6f6557460, 0xc00008e240})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff6f6634c10?, 0xc0000ac000}, {0x7ff6f6536d00, 0x7ff6f6631220}, {0xc0001fb9e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff6f6634c10, 0xc0000ac000}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x1c0d47d8028?, {0x7ff6f6634c10?, 0xc0000ac000?}, 0x7ff6f60de7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff6f6634c10, 0xc0000ac000}, 0xc000096000)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc00008e090?}, {0x7ff6f6634c10, 0xc0000ac000}, 0xc000096000)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000061540, {0x7ff6f6634e78, 0xc000075530})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:19:57 server.go:3197: http: panic serving [::1]:51269: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 50 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff6f6557460, 0xc0002042a0})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff6f6634c10?, 0xc000238000}, {0x7ff6f6536d00, 0x7ff6f6631220}, {0xc0001fb9e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff6f6634c10, 0xc000238000}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x1c0d47d8028?, {0x7ff6f6634c10?, 0xc000238000?}, 0x7ff6f60de7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff6f6634c10, 0xc000238000}, 0xc000220000)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc0002040f0?}, {0x7ff6f6634c10, 0xc000238000}, 0xc000220000)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc00020e000, {0x7ff6f6634e78, 0xc000075530})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:19:57 server.go:3197: http: panic serving [::1]:51270: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 52 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff6f6557460, 0xc0002044b0})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff6f6634c10?, 0xc0002380e0}, {0x7ff6f6536d00, 0x7ff6f6631220}, {0xc0000519e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff6f6634c10, 0xc0002380e0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x1c0d47d8028?, {0x7ff6f6634c10?, 0xc0002380e0?}, 0x7ff6f60de7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff6f6634c10, 0xc0002380e0}, 0xc00010ac00)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc0001de900?}, {0x7ff6f6634c10, 0xc0002380e0}, 0xc00010ac00)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc00020e0a0, {0x7ff6f6634e78, 0xc000075530})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:20:01 server.go:3197: http: panic serving [::1]:51271: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 54 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff6f6557460, 0xc000204690})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff6f6634c10?, 0xc0002381c0}, {0x7ff6f6536d00, 0x7ff6f6631220}, {0xc0000519e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff6f6634c10, 0xc0002381c0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x1c0d47d8028?, {0x7ff6f6634c10?, 0xc0002381c0?}, 0x7ff6f60de7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff6f6634c10, 0xc0002381c0}, 0xc00010ad00)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc0001de960?}, {0x7ff6f6634c10, 0xc0002381c0}, 0xc00010ad00)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc00020e140, {0x7ff6f6634e78, 0xc000075530})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:20:03 server.go:3197: http: panic serving [::1]:51272: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 25 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff6f6557460, 0xc0001deba0})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff6f6634c10?, 0xc0001427e0}, {0x7ff6f6536d00, 0x7ff6f6631220}, {0xc0000519e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff6f6634c10, 0xc0001427e0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x1c0d47d8028?, {0x7ff6f6634c10?, 0xc0001427e0?}, 0x7ff6f60de7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff6f6634c10, 0xc0001427e0}, 0xc00010ae00)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc0001dea20?}, {0x7ff6f6634c10, 0xc0001427e0}, 0xc00010ae00)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000615e0, {0x7ff6f6634e78, 0xc000075530})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:20:05 server.go:3197: http: panic serving [::1]:51274: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 27 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff6f6557460, 0xc0001dede0})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff6f6634c10?, 0xc0001428c0}, {0x7ff6f6536d00, 0x7ff6f6631220}, {0xc0001c79e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff6f6634c10, 0xc0001428c0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x1c0d47d8028?, {0x7ff6f6634c10?, 0xc0001428c0?}, 0x7ff6f60de7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff6f6634c10, 0xc0001428c0}, 0xc00010af00)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc0001dec60?}, {0x7ff6f6634c10, 0xc0001428c0}, 0xc00010af00)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000061680, {0x7ff6f6634e78, 0xc000075530})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:20:10 server.go:3197: http: panic serving [::1]:51275: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 29 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff6f6557460, 0xc0001df020})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff6f6634c10?, 0xc0001429a0}, {0x7ff6f6536d00, 0x7ff6f6631220}, {0xc0001cb9e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff6f6634c10, 0xc0001429a0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x1c0d47d8028?, {0x7ff6f6634c10?, 0xc0001429a0?}, 0x7ff6f60de7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff6f6634c10, 0xc0001429a0}, 0xc00010b000)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc0001deea0?}, {0x7ff6f6634c10, 0xc0001429a0}, 0xc00010b000)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000061720, {0x7ff6f6634e78, 0xc000075530})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:20:17 server.go:3197: http: panic serving [::1]:51278: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 7 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff7de4b7460, 0xc000075800})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff7de594c10?, 0xc0001420e0}, {0x7ff7de496d00, 0x7ff7de591220}, {0xc0000559e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff7de594c10, 0xc0001420e0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x254e9288028?, {0x7ff7de594c10?, 0xc0001420e0?}, 0x7ff7de03e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff7de594c10, 0xc0001420e0}, 0xc00010a100)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc000075620?}, {0x7ff7de594c10, 0xc0001420e0}, 0xc00010a100)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000610e0, {0x7ff7de594e78, 0xc000075530})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:20:47 server.go:3197: http: panic serving [::1]:51281: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 9 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff7de4b7460, 0xc000075a40})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff7de594c10?, 0xc0001421c0}, {0x7ff7de496d00, 0x7ff7de591220}, {0xc0000559e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff7de594c10, 0xc0001421c0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x254e9288028?, {0x7ff7de594c10?, 0xc0001421c0?}, 0x7ff7de03e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff7de594c10, 0xc0001421c0}, 0xc00010a300)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc0000758c0?}, {0x7ff7de594c10, 0xc0001421c0}, 0xc00010a300)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000061180, {0x7ff7de594e78, 0xc000075530})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:21:47 server.go:3197: http: panic serving [::1]:51291: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 11 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff7de4b7460, 0xc000075c80})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff7de594c10?, 0xc0001422a0}, {0x7ff7de496d00, 0x7ff7de591220}, {0xc0000519e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff7de594c10, 0xc0001422a0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x254e9288028?, {0x7ff7de594c10?, 0xc0001422a0?}, 0x7ff7de03e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff7de594c10, 0xc0001422a0}, 0xc00010a400)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc000075b00?}, {0x7ff7de594c10, 0xc0001422a0}, 0xc00010a400)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000061220, {0x7ff7de594e78, 0xc000075530})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:23:46 server.go:3197: http: panic serving [::1]:51299: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 7 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff7ea367460, 0xc000075800})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff7ea444c10?, 0xc0001420e0}, {0x7ff7ea346d00, 0x7ff7ea441220}, {0xc0000559e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff7ea444c10, 0xc0001420e0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x2516c7a8038?, {0x7ff7ea444c10?, 0xc0001420e0?}, 0x7ff7e9eee7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff7ea444c10, 0xc0001420e0}, 0xc00010a100)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc000075620?}, {0x7ff7ea444c10, 0xc0001420e0}, 0xc00010a100)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000061180, {0x7ff7ea444e78, 0xc000075530})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:23:48 server.go:3197: http: panic serving [::1]:51300: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 9 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff7ea367460, 0xc000075a40})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff7ea444c10?, 0xc0001421c0}, {0x7ff7ea346d00, 0x7ff7ea441220}, {0xc0000559e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff7ea444c10, 0xc0001421c0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x2516c7a8038?, {0x7ff7ea444c10?, 0xc0001421c0?}, 0x7ff7e9eee7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff7ea444c10, 0xc0001421c0}, 0xc00010a300)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc0000758c0?}, {0x7ff7ea444c10, 0xc0001421c0}, 0xc00010a300)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000061220, {0x7ff7ea444e78, 0xc000075530})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:37:59 server.go:3197: http: panic serving [::1]:51488: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 7 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff614e67460, 0xc000075890})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff614f44df0?, 0xc0001440e0}, {0x7ff614e46d00, 0x7ff614f413d8}, {0xc0000559e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff614f44df0, 0xc0001440e0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x1ecce5f8028?, {0x7ff614f44df0?, 0xc0001440e0?}, 0x7ff6149ee7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff614f44df0, 0xc0001440e0}, 0xc00010a100)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc0000756b0?}, {0x7ff614f44df0, 0xc0001440e0}, 0xc00010a100)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000061040, {0x7ff614f45058, 0xc0000755c0})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:38:00 server.go:3197: http: panic serving [::1]:51489: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 9 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff614e67460, 0xc000075ad0})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff614f44df0?, 0xc0001441c0}, {0x7ff614e46d00, 0x7ff614f413d8}, {0xc0000559e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff614f44df0, 0xc0001441c0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x1ecce5f8028?, {0x7ff614f44df0?, 0xc0001441c0?}, 0x7ff6149ee7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff614f44df0, 0xc0001441c0}, 0xc00010a300)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc000075950?}, {0x7ff614f44df0, 0xc0001441c0}, 0xc00010a300)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000610e0, {0x7ff614f45058, 0xc0000755c0})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:38:04 server.go:3197: http: panic serving [::1]:51490: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 11 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff614e67460, 0xc000075d10})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff614f44df0?, 0xc0001442a0}, {0x7ff614e46d00, 0x7ff614f413d8}, {0xc0000519e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff614f44df0, 0xc0001442a0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x1ecce5f8028?, {0x7ff614f44df0?, 0xc0001442a0?}, 0x7ff6149ee7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff614f44df0, 0xc0001442a0}, 0xc00010a400)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc000075b90?}, {0x7ff614f44df0, 0xc0001442a0}, 0xc00010a400)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000061180, {0x7ff614f45058, 0xc0000755c0})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:38:09 server.go:3197: http: panic serving [::1]:51492: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 13 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff614e67460, 0xc000075f50})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff614f44df0?, 0xc000144380}, {0x7ff614e46d00, 0x7ff614f413d8}, {0xc0001cb9e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff614f44df0, 0xc000144380}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x1ecce5f8028?, {0x7ff614f44df0?, 0xc000144380?}, 0x7ff6149ee7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff614f44df0, 0xc000144380}, 0xc00010a500)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc000075dd0?}, {0x7ff614f44df0, 0xc000144380}, 0xc00010a500)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000061220, {0x7ff614f45058, 0xc0000755c0})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:38:39 server.go:3197: http: panic serving [::1]:51496: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 15 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff614e67460, 0xc0001de1b0})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff614f44df0?, 0xc000144460}, {0x7ff614e46d00, 0x7ff614f413d8}, {0xc0001c79e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff614f44df0, 0xc000144460}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x1ecce5f8028?, {0x7ff614f44df0?, 0xc000144460?}, 0x7ff6149ee7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff614f44df0, 0xc000144460}, 0xc00010a600)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc0001de030?}, {0x7ff614f44df0, 0xc000144460}, 0xc00010a600)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000612c0, {0x7ff614f45058, 0xc0000755c0})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:40:45 server.go:3197: http: panic serving [::1]:51512: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 20 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff668d87460, 0xc0000c3860})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff668e64df0?, 0xc00019c0e0}, {0x7ff668d66d00, 0x7ff668e613d8}, {0xc0000919e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff668e64df0, 0xc00019c0e0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x20a778ba7a8?, {0x7ff668e64df0?, 0xc00019c0e0?}, 0x7ff66890e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff668e64df0, 0xc00019c0e0}, 0xc0000de100)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc0000c3680?}, {0x7ff668e64df0, 0xc00019c0e0}, 0xc0000de100)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000a30e0, {0x7ff668e65058, 0xc0000c3590})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:40:47 server.go:3197: http: panic serving [::1]:51513: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 22 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff668d87460, 0xc0000c3aa0})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff668e64df0?, 0xc00019c1c0}, {0x7ff668d66d00, 0x7ff668e613d8}, {0xc0000919e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff668e64df0, 0xc00019c1c0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x20a778ba7a8?, {0x7ff668e64df0?, 0xc00019c1c0?}, 0x7ff66890e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff668e64df0, 0xc00019c1c0}, 0xc0000de300)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc0000c3920?}, {0x7ff668e64df0, 0xc00019c1c0}, 0xc0000de300)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000a3180, {0x7ff668e65058, 0xc0000c3590})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:40:47 server.go:3197: http: panic serving [::1]:51514: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 24 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff668d87460, 0xc0000c3ce0})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff668e64df0?, 0xc00019c2a0}, {0x7ff668d66d00, 0x7ff668e613d8}, {0xc00008d9e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff668e64df0, 0xc00019c2a0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x20a778ba7a8?, {0x7ff668e64df0?, 0xc00019c2a0?}, 0x7ff66890e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff668e64df0, 0xc00019c2a0}, 0xc0000de400)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc0000c3b60?}, {0x7ff668e64df0, 0xc00019c2a0}, 0xc0000de400)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000a3220, {0x7ff668e65058, 0xc0000c3590})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:41:47 server.go:3197: http: panic serving [::1]:51517: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 26 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff668d87460, 0xc0000c3f20})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff668e64df0?, 0xc00019c380}, {0x7ff668d66d00, 0x7ff668e613d8}, {0xc0002259e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff668e64df0, 0xc00019c380}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x20a778ba7a8?, {0x7ff668e64df0?, 0xc00019c380?}, 0x7ff66890e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff668e64df0, 0xc00019c380}, 0xc0000de500)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc0000c3da0?}, {0x7ff668e64df0, 0xc00019c380}, 0xc0000de500)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000a32c0, {0x7ff668e65058, 0xc0000c3590})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:46:48 server.go:3197: http: panic serving [::1]:51576: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 28 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff668d87460, 0xc00023a180})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff668e64df0?, 0xc00019c460}, {0x7ff668d66d00, 0x7ff668e613d8}, {0xc0002219e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff668e64df0, 0xc00019c460}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x20a778ba7a8?, {0x7ff668e64df0?, 0xc00019c460?}, 0x7ff66890e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff668e64df0, 0xc00019c460}, 0xc0000de600)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc00023a000?}, {0x7ff668e64df0, 0xc00019c460}, 0xc0000de600)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000a3360, {0x7ff668e65058, 0xc0000c3590})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:54:57 server.go:3197: http: panic serving [::1]:51709: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 7 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff7b68985c0, 0xc000075890})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff7b6976290?, 0xc0001440e0}, {0x7ff7b6877e00, 0x7ff7b6972868}, {0xc0000559e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff7b6976290, 0xc0001440e0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x26b41808028?, {0x7ff7b6976290?, 0xc0001440e0?}, 0x7ff7b641e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff7b6976290, 0xc0001440e0}, 0xc00010a100)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc0000756b0?}, {0x7ff7b6976290, 0xc0001440e0}, 0xc00010a100)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000061040, {0x7ff7b69764f8, 0xc0000755c0})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:56:47 server.go:3197: http: panic serving [::1]:51718: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 34 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff7b68985c0, 0xc0000b42a0})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff7b6976290?, 0xc0000d2000}, {0x7ff7b6877e00, 0x7ff7b6972868}, {0xc0000559e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff7b6976290, 0xc0000d2000}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x26b41807f38?, {0x7ff7b6976290?, 0xc0000d2000?}, 0x7ff7b641e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff7b6976290, 0xc0000d2000}, 0xc0000c4000)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc0000b40f0?}, {0x7ff7b6976290, 0xc0000d2000}, 0xc0000c4000)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000bc000, {0x7ff7b69764f8, 0xc0000755c0})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:57:28 server.go:3197: http: panic serving [::1]:51722: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 36 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff7b68985c0, 0xc0000b44e0})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff7b6976290?, 0xc0000d20e0}, {0x7ff7b6877e00, 0x7ff7b6972868}, {0xc0000519e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff7b6976290, 0xc0000d20e0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x26b41808028?, {0x7ff7b6976290?, 0xc0000d20e0?}, 0x7ff7b641e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff7b6976290, 0xc0000d20e0}, 0xc0000c4100)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc0000b4360?}, {0x7ff7b6976290, 0xc0000d20e0}, 0xc0000c4100)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000bc0a0, {0x7ff7b69764f8, 0xc0000755c0})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:57:40 server.go:3197: http: panic serving [::1]:51724: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 39 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff7b68985c0, 0xc000075ad0})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff7b6976290?, 0xc0001441c0}, {0x7ff7b6877e00, 0x7ff7b6972868}, {0xc0002139e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff7b6976290, 0xc0001441c0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x26b41807d58?, {0x7ff7b6976290?, 0xc0001441c0?}, 0x7ff7b641e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff7b6976290, 0xc0001441c0}, 0xc00010a300)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc000075950?}, {0x7ff7b6976290, 0xc0001441c0}, 0xc00010a300)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000bc140, {0x7ff7b69764f8, 0xc0000755c0})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:57:29 server.go:3197: http: panic serving [::1]:51723: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 9 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff7b68985c0, 0xc0000b46c0})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff7b6976290?, 0xc0000d21c0}, {0x7ff7b6877e00, 0x7ff7b6972868}, {0xc0002179e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff7b6976290, 0xc0000d21c0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x26b41807e48?, {0x7ff7b6976290?, 0xc0000d21c0?}, 0x7ff7b641e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff7b6976290, 0xc0000d21c0}, 0xc0000c4200)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc0000b4540?}, {0x7ff7b6976290, 0xc0000d21c0}, 0xc0000c4200)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000610e0, {0x7ff7b69764f8, 0xc0000755c0})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:57:44 server.go:3197: http: panic serving [::1]:51725: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 19 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff7b68985c0, 0xc000075d10})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff7b6976290?, 0xc0001442a0}, {0x7ff7b6877e00, 0x7ff7b6972868}, {0xc0002179e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff7b6976290, 0xc0001442a0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x26b41807d58?, {0x7ff7b6976290?, 0xc0001442a0?}, 0x7ff7b641e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff7b6976290, 0xc0001442a0}, 0xc00010a400)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc000075b90?}, {0x7ff7b6976290, 0xc0001442a0}, 0xc00010a400)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0001880a0, {0x7ff7b69764f8, 0xc0000755c0})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:57:50 server.go:3197: http: panic serving [::1]:51732: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 20 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff687b185c0, 0xc000106210})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff687bf6290?, 0xc000130000}, {0x7ff687af7e00, 0x7ff687bf2868}, {0xc00008d9e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff687bf6290, 0xc000130000}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x22a69cfa7a8?, {0x7ff687bf6290?, 0xc000130000?}, 0x7ff68769e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff687bf6290, 0xc000130000}, 0xc00011c000)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc000106030?}, {0x7ff687bf6290, 0xc000130000}, 0xc00011c000)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000a30e0, {0x7ff687bf64f8, 0xc0000c3590})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:57:51 server.go:3197: http: panic serving 127.0.0.1:51733: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 21 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff687b185c0, 0xc0001063c0})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff687bf6290?, 0xc0001300e0}, {0x7ff687af7e00, 0x7ff687bf2868}, {0xc00008d9e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff687bf6290, 0xc0001300e0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x22a69cfa6b8?, {0x7ff687bf6290?, 0xc0001300e0?}, 0x7ff68769e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff687bf6290, 0xc0001300e0}, 0xc000050000)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc00001c060?}, {0x7ff687bf6290, 0xc0001300e0}, 0xc000050000)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000a3180, {0x7ff687bf64f8, 0xc0000c3590})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:57:51 server.go:3197: http: panic serving [::1]:51737: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 36 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff687b185c0, 0xc0000c3860})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff687bf6290?, 0xc00019c0e0}, {0x7ff687af7e00, 0x7ff687bf2868}, {0xc0000919e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff687bf6290, 0xc00019c0e0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x22a69cfa6b8?, {0x7ff687bf6290?, 0xc00019c0e0?}, 0x7ff68769e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff687bf6290, 0xc00019c0e0}, 0xc0000de100)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc0000c36e0?}, {0x7ff687bf6290, 0xc00019c0e0}, 0xc0000de100)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc00021c000, {0x7ff687bf64f8, 0xc0000c3590})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:57:53 server.go:3197: http: panic serving [::1]:51738: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 23 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff687b185c0, 0xc0000c3aa0})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff687bf6290?, 0xc00019c1c0}, {0x7ff687af7e00, 0x7ff687bf2868}, {0xc0000919e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff687bf6290, 0xc00019c1c0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x22a69cfa6b8?, {0x7ff687bf6290?, 0xc00019c1c0?}, 0x7ff68769e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff687bf6290, 0xc00019c1c0}, 0xc0000de200)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc0000c3920?}, {0x7ff687bf6290, 0xc00019c1c0}, 0xc0000de200)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000a3220, {0x7ff687bf64f8, 0xc0000c3590})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 14:57:58 server.go:3197: http: panic serving [::1]:51743: open app/views/templates/layout.html: The system cannot find the path specified.
+goroutine 25 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff687b185c0, 0xc00001c2a0})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff687bf6290?, 0xc00005e000}, {0x7ff687af7e00, 0x7ff687bf2868}, {0xc00006b9e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerSelect({0x7ff687bf6290, 0xc00005e000}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/route_buyer.go:14 +0xbf
+net/http.HandlerFunc.ServeHTTP(0x22a69cfa6b8?, {0x7ff687bf6290?, 0xc00005e000?}, 0x7ff68769e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff687bf6290, 0xc00005e000}, 0xc000050100)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc00001c0f0?}, {0x7ff687bf6290, 0xc00005e000}, 0xc000050100)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000a32c0, {0x7ff687bf64f8, 0xc0000c3590})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 15:00:45 server.go:3197: http: panic serving [::1]:51768: open app/views/templates/login.html: The system cannot find the file specified.
+goroutine 7 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff664aa85c0, 0xc00015c9f0})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff664b86290?, 0xc0000a40e0}, {0x0, 0x0}, {0xc0000559e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerLogin({0x7ff664b86290, 0xc0000a40e0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/buyer_auth.go:38 +0xb1
+net/http.HandlerFunc.ServeHTTP(0x146fc388028?, {0x7ff664b86290?, 0xc0000a40e0?}, 0x7ff66462e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff664b86290, 0xc0000a40e0}, 0xc0000b0400)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc0000756b0?}, {0x7ff664b86290, 0xc0000a40e0}, 0xc0000b0400)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000610e0, {0x7ff664b864f8, 0xc0000755c0})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 15:00:45 server.go:3197: http: panic serving [::1]:51769: open app/views/templates/login.html: The system cannot find the file specified.
+goroutine 12 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff664aa85c0, 0xc00015cd80})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff664b86290?, 0xc000144460}, {0x0, 0x0}, {0xc0000519e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerLogin({0x7ff664b86290, 0xc000144460}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/buyer_auth.go:38 +0xb1
+net/http.HandlerFunc.ServeHTTP(0x146fc387f38?, {0x7ff664b86290?, 0xc000144460?}, 0x7ff66462e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff664b86290, 0xc000144460}, 0xc00019e000)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc000075cb0?}, {0x7ff664b86290, 0xc000144460}, 0xc00019e000)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000061180, {0x7ff664b864f8, 0xc0000755c0})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 15:00:45 server.go:3197: http: panic serving [::1]:51770: open app/views/templates/login.html: The system cannot find the file specified.
+goroutine 42 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff664aa85c0, 0xc00015d110})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff664b86290?, 0xc000144540}, {0x0, 0x0}, {0xc0000559e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerLogin({0x7ff664b86290, 0xc000144540}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/buyer_auth.go:38 +0xb1
+net/http.HandlerFunc.ServeHTTP(0x146fc387f38?, {0x7ff664b86290?, 0xc000144540?}, 0x7ff66462e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff664b86290, 0xc000144540}, 0xc00010a700)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc00015ce40?}, {0x7ff664b86290, 0xc000144540}, 0xc00010a700)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000061220, {0x7ff664b864f8, 0xc0000755c0})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 15:00:47 server.go:3197: http: panic serving [::1]:51771: open app/views/templates/login.html: The system cannot find the file specified.
+goroutine 45 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff664aa85c0, 0xc000090ed0})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff664b86290?, 0xc0000a41c0}, {0x0, 0x0}, {0xc0000559e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerLogin({0x7ff664b86290, 0xc0000a41c0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/buyer_auth.go:38 +0xb1
+net/http.HandlerFunc.ServeHTTP(0x146fc387f38?, {0x7ff664b86290?, 0xc0000a41c0?}, 0x7ff66462e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff664b86290, 0xc0000a41c0}, 0xc0000b0500)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc000090a20?}, {0x7ff664b86290, 0xc0000a41c0}, 0xc0000b0500)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000612c0, {0x7ff664b864f8, 0xc0000755c0})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 15:01:14 server.go:3197: http: panic serving [::1]:51773: open app/views/templates/login.html: The system cannot find the file specified.
+goroutine 55 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff664aa85c0, 0xc000294210})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff664b86290?, 0xc0001b07e0}, {0x0, 0x0}, {0xc0000519e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerLogin({0x7ff664b86290, 0xc0001b07e0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/buyer_auth.go:38 +0xb1
+net/http.HandlerFunc.ServeHTTP(0x146fc388028?, {0x7ff664b86290?, 0xc0001b07e0?}, 0x7ff66462e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff664b86290, 0xc0001b07e0}, 0xc0000b0d00)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc000180a50?}, {0x7ff664b86290, 0xc0001b07e0}, 0xc0000b0d00)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0001c8000, {0x7ff664b864f8, 0xc0000755c0})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 15:01:14 server.go:3197: http: panic serving [::1]:51772: open app/views/templates/login.html: The system cannot find the file specified.
+goroutine 28 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff664aa85c0, 0xc000181e00})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff664b86290?, 0xc0000a4620}, {0x0, 0x0}, {0xc0000559e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerLogin({0x7ff664b86290, 0xc0000a4620}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/buyer_auth.go:38 +0xb1
+net/http.HandlerFunc.ServeHTTP(0x146fc387f38?, {0x7ff664b86290?, 0xc0000a4620?}, 0x7ff66462e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff664b86290, 0xc0000a4620}, 0xc0000b0c00)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc000090f90?}, {0x7ff664b86290, 0xc0000a4620}, 0xc0000b0c00)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000288000, {0x7ff664b864f8, 0xc0000755c0})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 15:01:14 server.go:3197: http: panic serving [::1]:51780: open app/views/templates/login.html: The system cannot find the file specified.
+goroutine 76 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff664aa85c0, 0xc000181f50})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff664b86290?, 0xc0000a4700}, {0x0, 0x0}, {0xc0000559e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerLogin({0x7ff664b86290, 0xc0000a4700}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/buyer_auth.go:38 +0xb1
+net/http.HandlerFunc.ServeHTTP(0x146fc387f38?, {0x7ff664b86290?, 0xc0000a4700?}, 0x7ff66462e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff664b86290, 0xc0000a4700}, 0xc0000b0e00)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc0002945a0?}, {0x7ff664b86290, 0xc0000a4700}, 0xc0000b0e00)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0002880a0, {0x7ff664b864f8, 0xc0000755c0})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 15:01:14 server.go:3197: http: panic serving [::1]:51781: open app/views/templates/login.html: The system cannot find the file specified.
+goroutine 105 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff664aa85c0, 0xc000294d20})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff664b86290?, 0xc0000a47e0}, {0x0, 0x0}, {0xc0002b59e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerLogin({0x7ff664b86290, 0xc0000a47e0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/buyer_auth.go:38 +0xb1
+net/http.HandlerFunc.ServeHTTP(0x146fc340558?, {0x7ff664b86290?, 0xc0000a47e0?}, 0x7ff66462e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff664b86290, 0xc0000a47e0}, 0xc00019ec00)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc000322090?}, {0x7ff664b86290, 0xc0000a47e0}, 0xc00019ec00)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0001c80a0, {0x7ff664b864f8, 0xc0000755c0})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 15:01:15 server.go:3197: http: panic serving [::1]:51782: open app/views/templates/login.html: The system cannot find the file specified.
+goroutine 114 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff664aa85c0, 0xc000295290})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff664b86290?, 0xc0000a48c0}, {0x0, 0x0}, {0xc0002b59e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerLogin({0x7ff664b86290, 0xc0000a48c0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/buyer_auth.go:38 +0xb1
+net/http.HandlerFunc.ServeHTTP(0x146fc387f38?, {0x7ff664b86290?, 0xc0000a48c0?}, 0x7ff66462e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff664b86290, 0xc0000a48c0}, 0xc0000b0f00)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc000294de0?}, {0x7ff664b86290, 0xc0000a48c0}, 0xc0000b0f00)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000288140, {0x7ff664b864f8, 0xc0000755c0})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 15:01:20 server.go:3197: http: panic serving [::1]:51783: open app/views/templates/login.html: The system cannot find the file specified.
+goroutine 118 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff664aa85c0, 0xc0002642d0})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff664b86290?, 0xc0001448c0}, {0x0, 0x0}, {0xc0000559e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerLogin({0x7ff664b86290, 0xc0001448c0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/buyer_auth.go:38 +0xb1
+net/http.HandlerFunc.ServeHTTP(0x146fc387f38?, {0x7ff664b86290?, 0xc0001448c0?}, 0x7ff66462e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff664b86290, 0xc0001448c0}, 0xc00019ed00)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc0003220f0?}, {0x7ff664b86290, 0xc0001448c0}, 0xc00019ed00)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0002881e0, {0x7ff664b864f8, 0xc0000755c0})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 15:01:50 server.go:3197: http: panic serving [::1]:51786: open app/views/templates/login.html: The system cannot find the file specified.
+goroutine 89 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff664aa85c0, 0xc000264840})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff664b86290?, 0xc0001449a0}, {0x0, 0x0}, {0xc0000559e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerLogin({0x7ff664b86290, 0xc0001449a0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/buyer_auth.go:38 +0xb1
+net/http.HandlerFunc.ServeHTTP(0x146fc387f38?, {0x7ff664b86290?, 0xc0001449a0?}, 0x7ff66462e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff664b86290, 0xc0001449a0}, 0xc00010ae00)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc000264390?}, {0x7ff664b86290, 0xc0001449a0}, 0xc00010ae00)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000061360, {0x7ff664b864f8, 0xc0000755c0})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 15:02:50 server.go:3197: http: panic serving [::1]:51800: open app/views/templates/login.html: The system cannot find the file specified.
+goroutine 20 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff73aaf85c0, 0xc00001c570})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff73abd6290?, 0xc000066000}, {0x0, 0x0}, {0xc00008d9e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerLogin({0x7ff73abd6290, 0xc000066000}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/buyer_auth.go:38 +0xb1
+net/http.HandlerFunc.ServeHTTP(0x1c7bfb4a7a8?, {0x7ff73abd6290?, 0xc000066000?}, 0x7ff73a67e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff73abd6290, 0xc000066000}, 0xc00005c000)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc00001c060?}, {0x7ff73abd6290, 0xc000066000}, 0xc00005c000)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000a3040, {0x7ff73abd64f8, 0xc0000c3590})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 15:04:29 server.go:3197: http: panic serving [::1]:51812: template: buyer_login.html:16: unexpected {{end}}
+goroutine 7 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff6ff3d6c80, 0xc00003f080})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff6ff4c6290?, 0xc0000b6000}, {0x0, 0x0}, {0xc0000519e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.BuyerLogin({0x7ff6ff4c6290, 0xc0000b6000}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/buyer_auth.go:38 +0xb1
+net/http.HandlerFunc.ServeHTTP(0x112e4b18028?, {0x7ff6ff4c6290?, 0xc0000b6000?}, 0x7ff6fef6e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff6ff4c6290, 0xc0000b6000}, 0xc0000a2000)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc00008c030?}, {0x7ff6ff4c6290, 0xc0000b6000}, 0xc0000a2000)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc000061180, {0x7ff6ff4c64f8, 0xc0000755c0})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 15:05:07 buyer_auth.go:48: sql: no rows in result set
+2022/10/24 15:05:07 server.go:3197: http: superfluous response.WriteHeader call from Ecsite/app/controllers.BuyerAuthenticate (buyer_auth.go:64)
+2022/10/24 15:05:08 buyer_auth.go:48: sql: no rows in result set
+2022/10/24 15:05:08 server.go:3197: http: superfluous response.WriteHeader call from Ecsite/app/controllers.BuyerAuthenticate (buyer_auth.go:64)
+2022/10/24 15:06:29 buyer_auth.go:48: sql: no rows in result set
+2022/10/24 15:06:29 server.go:3197: http: superfluous response.WriteHeader call from Ecsite/app/controllers.BuyerAuthenticate (buyer_auth.go:64)
+2022/10/24 15:06:30 buyer_auth.go:48: sql: no rows in result set
+2022/10/24 15:06:30 server.go:3197: http: superfluous response.WriteHeader call from Ecsite/app/controllers.BuyerAuthenticate (buyer_auth.go:64)
+2022/10/24 15:07:54 server.go:3197: http: panic serving [::1]:51822: template: store_login.html:16: unexpected {{end}}
+goroutine 20 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff678186c80, 0xc000089ce0})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff678276290?, 0xc00011cc40}, {0x0, 0x0}, {0xc0000919e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.StoreLogin({0x7ff678276290, 0xc00011cc40}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/store_auth.go:38 +0xb1
+net/http.HandlerFunc.ServeHTTP(0x218b098a7a8?, {0x7ff678276290?, 0xc00011cc40?}, 0x7ff677d1e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff678276290, 0xc00011cc40}, 0xc000069b00)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc0000c3680?}, {0x7ff678276290, 0xc00011cc40}, 0xc000069b00)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0000a3180, {0x7ff6782764f8, 0xc0000c3590})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 15:07:56 server.go:3197: http: panic serving 127.0.0.1:51825: template: store_login.html:16: unexpected {{end}}
+goroutine 7 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff678186c80, 0xc000089ec0})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff678276290?, 0xc00011cd20}, {0x0, 0x0}, {0xc00008d9e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.StoreLogin({0x7ff678276290, 0xc00011cd20}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/store_auth.go:38 +0xb1
+net/http.HandlerFunc.ServeHTTP(0x218b098a6b8?, {0x7ff678276290?, 0xc00011cd20?}, 0x7ff677d1e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff678276290, 0xc00011cd20}, 0xc0000dee00)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc00001c4b0?}, {0x7ff678276290, 0xc00011cd20}, 0xc0000dee00)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc00006a000, {0x7ff6782764f8, 0xc0000c3590})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 15:08:04 server.go:3197: http: panic serving [::1]:51849: template: store_login.html:16: unexpected {{end}}
+goroutine 117 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff678186c80, 0xc0002c0260})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff678276290?, 0xc0000750a0}, {0x0, 0x0}, {0xc00022d9e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.StoreLogin({0x7ff678276290, 0xc0000750a0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/store_auth.go:38 +0xb1
+net/http.HandlerFunc.ServeHTTP(0x218b098a4d8?, {0x7ff678276290?, 0xc0000750a0?}, 0x7ff677d1e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff678276290, 0xc0000750a0}, 0xc000240300)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc000187b30?}, {0x7ff678276290, 0xc0000750a0}, 0xc000240300)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0001f4000, {0x7ff6782764f8, 0xc0000c3590})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 15:07:57 server.go:3197: http: panic serving [::1]:51847: template: store_login.html:16: unexpected {{end}}
+goroutine 95 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff678186c80, 0xc0001988c0})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff678276290?, 0xc000074d20}, {0x0, 0x0}, {0xc0002319e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.StoreLogin({0x7ff678276290, 0xc000074d20}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/store_auth.go:38 +0xb1
+net/http.HandlerFunc.ServeHTTP(0x218b098a5c8?, {0x7ff678276290?, 0xc000074d20?}, 0x7ff677d1e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff678276290, 0xc000074d20}, 0xc000069c00)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc000205c50?}, {0x7ff678276290, 0xc000074d20}, 0xc000069c00)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc00006a0a0, {0x7ff6782764f8, 0xc0000c3590})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 15:11:36 server.go:3197: http: panic serving [::1]:51850: template: store_login.html:16: unexpected {{end}}
+goroutine 123 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff678186c80, 0xc00003f8e0})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff678276290?, 0xc000075180}, {0x0, 0x0}, {0xc0003079e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.StoreLogin({0x7ff678276290, 0xc000075180}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/store_auth.go:38 +0xb1
+net/http.HandlerFunc.ServeHTTP(0x218b098a3e8?, {0x7ff678276290?, 0xc000075180?}, 0x7ff677d1e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff678276290, 0xc000075180}, 0xc000240200)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc0001fa210?}, {0x7ff678276290, 0xc000075180}, 0xc000240200)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc0001f40a0, {0x7ff6782764f8, 0xc0000c3590})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 15:11:36 server.go:3197: http: panic serving [::1]:51876: template: store_login.html:16: unexpected {{end}}
+goroutine 145 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff678186c80, 0xc000198f90})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff678276290?, 0xc00011d0a0}, {0x0, 0x0}, {0xc0003079e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.StoreLogin({0x7ff678276290, 0xc00011d0a0}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/store_auth.go:38 +0xb1
+net/http.HandlerFunc.ServeHTTP(0x218b098a3e8?, {0x7ff678276290?, 0xc00011d0a0?}, 0x7ff677d1e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff678276290, 0xc00011d0a0}, 0xc0000df700)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc0002a8e10?}, {0x7ff678276290, 0xc00011d0a0}, 0xc0000df700)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc00006a140, {0x7ff6782764f8, 0xc0000c3590})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 15:11:37 server.go:3197: http: panic serving [::1]:51877: template: store_login.html:16: unexpected {{end}}
+goroutine 178 [running]:
+net/http.(*conn).serve.func1()
+	C:/Program Files/Go/src/net/http/server.go:1825 +0xbf
+panic({0x7ff678186c80, 0xc00003f9d0})
+	C:/Program Files/Go/src/runtime/panic.go:844 +0x258
+text/template.Must(...)
+	C:/Program Files/Go/src/text/template/helper.go:25
+Ecsite/app/controllers.genereateHTML({0x7ff678276290?, 0xc00019ac40}, {0x0, 0x0}, {0xc0002319e0?, 0x3, 0x0?})
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/server.go:18 +0x106
+Ecsite/app/controllers.StoreLogin({0x7ff678276290, 0xc00019ac40}, 0x0?)
+	C:/Users/user/Downloads/Go/Ecsite/app/controllers/store_auth.go:38 +0xb1
+net/http.HandlerFunc.ServeHTTP(0x218b098a3e8?, {0x7ff678276290?, 0xc00019ac40?}, 0x7ff677d1e7c5?)
+	C:/Program Files/Go/src/net/http/server.go:2084 +0x2f
+net/http.(*ServeMux).ServeHTTP(0x0?, {0x7ff678276290, 0xc00019ac40}, 0xc0001c9300)
+	C:/Program Files/Go/src/net/http/server.go:2462 +0x149
+net/http.serverHandler.ServeHTTP({0xc0001fb230?}, {0x7ff678276290, 0xc00019ac40}, 0xc0001c9300)
+	C:/Program Files/Go/src/net/http/server.go:2916 +0x43b
+net/http.(*conn).serve(0xc00006a1e0, {0x7ff6782764f8, 0xc0000c3590})
+	C:/Program Files/Go/src/net/http/server.go:1966 +0x5d7
+created by net/http.(*Server).Serve
+	C:/Program Files/Go/src/net/http/server.go:3071 +0x4db
+2022/10/24 15:12:50 buyer_auth.go:48: sql: no rows in result set
+2022/10/24 15:12:50 server.go:3197: http: superfluous response.WriteHeader call from Ecsite/app/controllers.BuyerAuthenticate (buyer_auth.go:64)
+2022/10/24 15:14:21 buyer_auth.go:48: sql: no rows in result set
+2022/10/24 15:14:21 server.go:3197: http: superfluous response.WriteHeader call from Ecsite/app/controllers.BuyerAuthenticate (buyer_auth.go:64)
+2022/10/24 15:37:47 buyer_auth.go:48: sql: no rows in result set
+2022/10/24 15:37:47 server.go:3197: http: superfluous response.WriteHeader call from Ecsite/app/controllers.BuyerAuthenticate (buyer_auth.go:64)
+2022/10/24 15:37:48 buyer_auth.go:48: sql: no rows in result set
+2022/10/24 15:37:48 server.go:3197: http: superfluous response.WriteHeader call from Ecsite/app/controllers.BuyerAuthenticate (buyer_auth.go:64)
+2022/10/24 15:43:50 buyer_auth.go:48: sql: no rows in result set
+2022/10/24 15:43:50 server.go:3197: http: superfluous response.WriteHeader call from Ecsite/app/controllers.BuyerAuthenticate (buyer_auth.go:64)
+2022/10/24 15:48:05 buyer_auth.go:48: sql: no rows in result set
+2022/10/24 15:48:05 server.go:3197: http: superfluous response.WriteHeader call from Ecsite/app/controllers.BuyerAuthenticate (buyer_auth.go:64)
+2022/10/24 15:50:23 buyer_auth.go:48: sql: no rows in result set
+2022/10/24 15:50:24 server.go:3197: http: superfluous response.WriteHeader call from Ecsite/app/controllers.BuyerAuthenticate (buyer_auth.go:64)
+2022/10/24 15:50:37 buyer_auth.go:48: sql: no rows in result set
+2022/10/24 15:50:37 server.go:3197: http: superfluous response.WriteHeader call from Ecsite/app/controllers.BuyerAuthenticate (buyer_auth.go:64)
+2022/10/24 15:54:58 buyer_auth.go:53: sql: no rows in result set
+2022/10/24 15:54:58 server.go:3197: http: superfluous response.WriteHeader call from Ecsite/app/controllers.BuyerAuthenticate (buyer_auth.go:69)
+2022/10/24 15:56:00 buyer_auth.go:23: 友田陽大
+2022/10/24 15:56:00 buyer_auth.go:24: 京都市下京区
+2022/10/24 15:56:00 buyer_auth.go:25: user1@gmail.com
+2022/10/24 15:56:00 buyer_auth.go:26: user1
+2022/10/24 15:56:13 buyer_auth.go:54: sql: Scan error on column index 4, name "wallet": converting NULL to int is unsupported
+2022/10/24 15:56:13 server.go:3197: http: superfluous response.WriteHeader call from Ecsite/app/controllers.BuyerAuthenticate (buyer_auth.go:70)
+2022/10/24 16:00:46 buyer_auth.go:23: 友田陽大
+2022/10/24 16:00:46 buyer_auth.go:24: 京都市下京区
+2022/10/24 16:00:46 buyer_auth.go:25: user1@gmail.com
+2022/10/24 16:00:46 buyer_auth.go:26: user1
+2022/10/24 16:00:46 buyers.go:45: not enough args to execute query: want 7 got 6
+2022/10/24 16:01:25 buyer_auth.go:23: 友田陽大
+2022/10/24 16:01:25 buyer_auth.go:24: 京都市下京区
+2022/10/24 16:01:25 buyer_auth.go:25: user1@gmail.com
+2022/10/24 16:01:25 buyer_auth.go:26: user1
+2022/10/24 16:01:51 buyers.go:114: no such table: sessions
+2022/10/24 16:01:51 buyer_auth.go:61: no such table: sessions
+2022/10/24 16:01:56 buyers.go:114: no such table: sessions
+2022/10/24 16:01:56 buyer_auth.go:61: no such table: sessions
+2022/10/24 16:03:27 buyers.go:114: no such table: sessions
+2022/10/24 16:03:27 buyer_auth.go:58: sql: no rows in result set
+2022/10/24 16:05:50 buyers.go:114: no such table: sessions
+2022/10/24 16:05:50 buyer_auth.go:58: sql: no rows in result set
+2022/10/24 16:26:05 goods.go:58: no such column: good_name
+2022/10/24 16:28:06 stores.go:45: 7 values for 6 columns
+2022/10/24 17:06:31 goods.go:27: near "category": syntax error
+2022/10/24 17:17:39 store_auth.go:38: inavalid session
+2022/10/24 17:17:47 store_auth.go:38: inavalid session
+2022/10/24 17:25:04 store_auth.go:38: inavalid session
+2022/10/24 17:29:08 store_auth.go:38: inavalid session
+2022/10/24 17:33:05 stores.go:131: fa0191c4-5375-11ed-9087-e47fb21f4f5f
+2022/10/24 17:33:06 stores.go:131: fa0191c4-5375-11ed-9087-e47fb21f4f5f
+2022/10/24 17:33:08 stores.go:131: fa0191c4-5375-11ed-9087-e47fb21f4f5f
+2022/10/24 17:33:08 stores.go:131: fa0191c4-5375-11ed-9087-e47fb21f4f5f
+2022/10/24 17:33:08 store_auth.go:38: inavalid session
+2022/10/24 17:33:13 stores.go:131: 5d63f63c-5375-11ed-8990-e47fb21f4f5f
+2022/10/24 17:33:13 stores.go:131: 5d63f63c-5375-11ed-8990-e47fb21f4f5f
+2022/10/24 17:35:12 stores.go:131: 5d63f63c-5375-11ed-8990-e47fb21f4f5f
+2022/10/24 17:35:13 store_auth.go:38: inavalid session
+2022/10/24 17:35:22 stores.go:131: 7dcd2abb-5376-11ed-b6e3-e47fb21f4f5f
+2022/10/24 17:35:22 stores.go:146: true
+2022/10/24 17:35:22 stores.go:147: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+2022/10/24 17:35:22 stores.go:148: <nil>
+2022/10/24 17:35:22 stores.go:131: 7dcd2abb-5376-11ed-b6e3-e47fb21f4f5f
+2022/10/24 17:35:22 stores.go:146: true
+2022/10/24 17:35:22 stores.go:147: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+2022/10/24 17:35:22 stores.go:148: <nil>
+2022/10/24 17:35:34 stores.go:131: 7dcd2abb-5376-11ed-b6e3-e47fb21f4f5f
+2022/10/24 17:35:34 store_auth.go:38: inavalid session
+2022/10/24 17:35:41 stores.go:131: c9b34380-5376-11ed-b94f-e47fb21f4f5f
+2022/10/24 17:35:41 stores.go:146: true
+2022/10/24 17:35:41 stores.go:147: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+2022/10/24 17:35:41 stores.go:148: <nil>
+2022/10/24 17:35:41 stores.go:131: c9b34380-5376-11ed-b94f-e47fb21f4f5f
+2022/10/24 17:35:41 stores.go:146: true
+2022/10/24 17:35:41 stores.go:147: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+2022/10/24 17:35:41 stores.go:148: <nil>
+2022/10/24 17:44:19 stores.go:131: 3cd51ed3-536b-11ed-94bf-e47fb21f4f5f
+2022/10/24 17:44:41 stores.go:131: 3cd51ed3-536b-11ed-94bf-e47fb21f4f5f
+2022/10/24 17:44:46 stores.go:131: 3cd51ed3-536b-11ed-94bf-e47fb21f4f5f
+2022/10/24 17:46:39 store_auth.go:38: inavalid session
+2022/10/24 17:44:42 stores.go:131: 3cd51ed3-536b-11ed-94bf-e47fb21f4f5f
+2022/10/24 17:46:39 store_auth.go:38: inavalid session
+2022/10/24 17:46:39 store_auth.go:38: inavalid session
+2022/10/24 17:44:42 stores.go:131: 3cd51ed3-536b-11ed-94bf-e47fb21f4f5f
+2022/10/24 17:44:45 stores.go:131: 3cd51ed3-536b-11ed-94bf-e47fb21f4f5f
+2022/10/24 17:46:39 store_auth.go:38: inavalid session
+2022/10/24 17:46:39 store_auth.go:38: inavalid session
+2022/10/24 17:46:47 stores.go:131: 3cd51ed3-536b-11ed-94bf-e47fb21f4f5f
+2022/10/24 17:46:47 server.go:39: false
+2022/10/24 17:46:47 store_auth.go:38: inavalid session
+2022/10/24 17:46:51 stores.go:131: d4b04bd7-5376-11ed-b94f-e47fb21f4f5f
+2022/10/24 17:46:51 stores.go:146: true
+2022/10/24 17:46:51 stores.go:147: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+2022/10/24 17:46:51 stores.go:148: <nil>
+2022/10/24 17:46:51 server.go:39: true
+2022/10/24 17:46:51 stores.go:131: d4b04bd7-5376-11ed-b94f-e47fb21f4f5f
+2022/10/24 17:46:51 stores.go:146: true
+2022/10/24 17:46:51 stores.go:147: ＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+2022/10/24 17:46:51 stores.go:148: <nil>
+2022/10/24 17:46:51 server.go:39: true
+2022/10/24 17:47:39 stores.go:131: d4b04bd7-5376-11ed-b94f-e47fb21f4f5f
+2022/10/24 17:47:40 stores.go:131: d4b04bd7-5376-11ed-b94f-e47fb21f4f5f
+2022/10/24 17:48:03 server.go:39: false
+2022/10/24 17:47:41 stores.go:131: d4b04bd7-5376-11ed-b94f-e47fb21f4f5f
+2022/10/24 17:48:03 server.go:39: false
+2022/10/24 17:47:44 stores.go:131: d4b04bd7-5376-11ed-b94f-e47fb21f4f5f
+2022/10/24 17:48:03 store_auth.go:38: inavalid session
+2022/10/24 17:48:03 server.go:39: false
+2022/10/24 17:48:03 server.go:39: false
+2022/10/24 17:48:03 store_auth.go:38: inavalid session
+2022/10/24 17:48:16 stores.go:131: d4b04bd7-5376-11ed-b94f-e47fb21f4f5f
+2022/10/24 17:48:24 server.go:39: false
+2022/10/24 17:48:24 store_auth.go:38: inavalid session
+2022/10/24 17:48:30 stores.go:131: d4b04bd7-5376-11ed-b94f-e47fb21f4f5f
+2022/10/24 17:48:30 server.go:39: false
+2022/10/24 17:48:30 store_auth.go:38: inavalid session
+2022/10/24 17:48:37 stores.go:131: d4b04bd7-5376-11ed-b94f-e47fb21f4f5f
+2022/10/24 17:48:37 server.go:39: false
+2022/10/24 17:48:37 store_auth.go:38: inavalid session
+2022/10/24 17:48:37 stores.go:131: d4b04bd7-5376-11ed-b94f-e47fb21f4f5f
+2022/10/24 17:48:37 server.go:39: false
+2022/10/24 17:48:37 store_auth.go:38: inavalid session
